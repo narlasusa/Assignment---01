@@ -1,0 +1,178 @@
+// step 1
+//some_month -> someMonth
+//function the Month() -> functionTheMonth()
+//current-month -> currentMonth
+//summer_month -> summerMonth
+//MyLibrary-function -> myLibraryFunction 
+
+// step 2
+// examples:
+// Numeric literal expression
+
+   // Example (integer): let age = 30;
+    // Example (floating-point): let pi = 3.14159;
+    // Example (scientific notation): let planckConstant = 6.626e-34; 
+
+// String literal expression
+
+   // Example (single quotes): let greeting = 'Hello, World!';
+    //Example (double quotes): let message = "Welcome to the site.";
+    // Example (multi-line):
+
+    
+// Boolean literal expression
+
+   // Example (true): let isRaining = true;
+    //Example (false): let isFinished = false;
+
+//Null literal expression
+
+  //  Example: let user = null;
+
+// step 3 example
+
+/* let itemPrice = 25.50;
+let taxRate = 0.05;
+
+// Complex expression: calculates the total cost, including tax
+let totalCost = itemPrice * (1 + taxRate);
+*/
+
+//STEP 4 Here are 9 variables declared (but not assigned) using a standard convention for Hungarian Notation prefixes:
+/*
+    sFirstName: let sFirstName;
+    sLastName: let sLastName;
+    sAddress: let sAddress;
+    sCity: let sCity;
+    sState: let sState;
+    nZipCode: let nZipCode;
+    nYourAge: let nYourAge;
+    sReferralSource: let sReferralSource;
+*/
+// STEP 5 
+/*
+let sFirstName = "Sreedhar";
+let sLastName = "Narla";
+let nYourAge = 56;
+*/
+// STEP 6
+/*
+Here is an example that can run directly in your browser's developer console. 
+
+let myVariable;
+
+// Assign a number and a string
+let myNumber = 100;
+let myString = "50";
+
+myVariable = myNumber + myString;
+console.log(myVariable);
+// Expected output: "10050" (string concatenation)
+*/
+    
+// STEP 7  Two examples of type coercion:   
+/*Example 1: Boolean + String
+
+let myVariable1;
+let myBoolean = true;
+let myString = " is a fact.";
+
+myVariable1 = myBoolean + myString;
+
+console.log(myVariable1);
+
+Expected output:
+
+true is a fact.
+
+Example 2: Number + Boolean
+
+let myVariable2;
+let myNumber = 50;
+let myBoolean = true;
+
+myVariable2 = myNumber + myBoolean;
+
+console.log(myVariable2);
+
+Expected output:
+
+51
+*/
+
+// STEP 8
+//
+// Example of a variable declared but not assigned a value
+/*let undefinedVariable;
+console.log(undefinedVariable); // Expected output: undefined
+
+// Example of a null variable
+let nullVariable = null;
+console.log(nullVariable); // Expected output: null
+The provided string literal is invalid and will cause a SyntaxError. 
+There are three common ways to fix this, using either an escape character, double quotes, or backticks. 
+
+let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
+console.log(someString);
+*/
+
+// STEP 9
+/*
+let undefinedVariable;
+console.log(undefinedVariable);
+let myNullVariable = null;
+console.log(myNullVariable);
+*/
+
+// STEP 10 
+/*                 
+// Return "string"
+console.log(typeof "Hello, world!");
+
+// Return "number"
+console.log(typeof 123);
+
+// Return "boolean"
+console.log(typeof true);
+
+// Return "object"
+console.log(typeof null); // A known quirk; null returns "object"
+console.log(typeof [1, 2, 3]); // Arrays are a type of object
+console.log(typeof {});
+
+
+// Return "undefined"
+console.log(typeof undefinedVariable);
+*/
+//  STEP 11
+/*
+let studentName = "Sreedhar Narla";
+
+alert("Hello " + studentName + ", welcome to the JavaScript class!");
+*/
+
+// STEP 12
+/*
+let studentName = "Sreedhar Narla";
+let courseName = "JavaScript";
+let name = "Sreedhar Narla";
+alert("Hello " + name + ", welcome to the JavaScript class!");
+alert("Hello " + studentName + ", welcome to the " + courseName + " class!");
+*/
+
+// STEP 13
+/*
+let studentName = "Sreedhar Narla";
+let courseName = "JavaScript";
+let name = "Sreedhar Narla";
+let course = "JavaScript";
+
+alert(`Hello ${name}, welcome to the ${course} class!`);
+*/
+/*let name = "Sreedhar Narla";
+let course = "JavaScript";
+
+alert("Hello " + name + ".\n" + "Welcome to the " + course + " class!");
+*/
+
+// STEP 14
