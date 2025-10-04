@@ -1,8 +1,10 @@
 // step 1
+
 //some_month -> someMonth
 //function the Month() -> functionTheMonth()
 //current-month -> currentMonth
 //summer_month -> summerMonth
+
 //MyLibrary-function -> myLibraryFunction 
 
 // step 2
@@ -16,7 +18,7 @@
 // String literal expression
 
    // Example (single quotes): let greeting = 'Hello, World!';
-    //Example (double quotes): let message = "Welcome to the site.";
+    //Example (double quotes): let message = "Welcome to scripting!";
     // Example (multi-line):
 
     
